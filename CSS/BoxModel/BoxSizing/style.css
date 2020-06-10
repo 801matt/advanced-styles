@@ -1,0 +1,28 @@
+/*
+BOX SIZING
+- The box-sizing CSS property sets how the total width and height of an element is calculated (includes padding and border, excludes margin).
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#btn-wrapper {
+  background: red;
+  border: solid 5px blue;
+  padding: 20px;
+  width: 187px;
+}
+
+button {
+  display: block;
+  padding: 25px;
+  width: 100%;
+  border: solid 5px black;
+  margin: 20px 0;
+  box-sizing: border-box;
+}

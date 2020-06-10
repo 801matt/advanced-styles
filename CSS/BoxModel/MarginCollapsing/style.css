@@ -1,0 +1,16 @@
+/*
+SHORTHANDS
+*/
+
+body {
+  margin: 0;
+}
+
+button {
+  display: block;
+  /* margin: 5px 10px 5px 10px; | top, right, bottom, left */
+  /* margin: 5px 10px; | top & bottom, left & right */
+  margin: 20px;
+  border: solid 3px blue;
+  padding: 20px;
+}

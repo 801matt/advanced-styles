@@ -1,0 +1,28 @@
+* {
+  color: brown;
+}
+
+body {
+  color: orangered;
+}
+
+button {
+  height: 50px;
+  color: pink;
+}
+
+.my-btn-class {
+  color: red;
+}
+
+#my-btn-id {
+  color: yellow;
+}
+
+[hello] {
+  color: blue;
+}
+
+#my-btn-id {
+  color: inherit;
+}

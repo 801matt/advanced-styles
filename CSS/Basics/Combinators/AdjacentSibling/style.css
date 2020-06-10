@@ -1,0 +1,16 @@
+/*
+ADJACENT SIBLING
+- The adjacent sibling combinator (+) separates two selectors and matches the second element only if it immediately follows the first element, and both are children of the same parent element.
+*/
+
+h1 + button {
+  color: blue;
+}
+
+#btn-wrapper h2 + button {
+  color: teal;
+}
+
+button {
+  color: red;
+}

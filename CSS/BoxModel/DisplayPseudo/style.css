@@ -1,0 +1,88 @@
+/*
+BOX SIZING
+- The box-sizing CSS property sets how the total width and height of an element is calculated (including padding and border).
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#btn-wrapper {
+  background: red;
+  border: solid 5px blue;
+  padding: 20px;
+  width: 187px;
+}
+
+button {
+  display: block;
+  padding: 25px;
+  width: 100%;
+  border: solid 5px black;
+  margin: 20px 0;
+  box-sizing: border-box;
+}
+
+.main-header {
+  background: lime;
+  padding: 0 20px;
+}
+
+.main-header > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-header > div a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.main-nav {
+  display: inline-block;
+  width: calc(100% - 95px);
+  text-align: right;
+  vertical-align: middle;
+}
+
+.main-nav__item {
+  display: inline-block;
+  margin-left: 12px;
+}
+
+.main-nav__item a {
+  display: inline-block;
+  text-decoration: none;
+  color: forestgreen;
+}
+
+.main-nav__item a::first-letter {
+  color: blue;
+  font-size: 18px;
+}
+
+.main-nav__item a:hover,
+a:active {
+  color: white;
+}
+
+p::first-letter {
+  color: blue;
+  font-size: 22px;
+}
+
+p::before {
+  content: "Do you like my content before?";
+  color: blue;
+}
+
+p::after {
+  content: "Do you like my after content?";
+  color: red;
+}

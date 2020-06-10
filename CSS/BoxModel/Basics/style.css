@@ -1,0 +1,9 @@
+/*
+BOX MODEL
+*/
+
+button {
+  margin: 20px;
+  border: solid 3px blue;
+  padding: 20px;
+}

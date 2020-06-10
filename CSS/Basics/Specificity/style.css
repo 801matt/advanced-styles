@@ -1,0 +1,38 @@
+body {
+  color: #4b4b4b;
+}
+
+* {
+  color: brown;
+}
+
+button {
+  height: 50px;
+  color: pink;
+}
+
+.my-btn-class {
+  color: red;
+}
+
+#my-btn-id {
+  color: yellow;
+}
+
+[hello] {
+  color: blue;
+}
+
+/*
+- !important
+- Inline styles
+- ID
+- Attribute
+- Class
+- HTML style tag -> element
+- Element
+- Universal *
+- Order found within the file
+- Browser defaults
+- Inherited from parent
+*/

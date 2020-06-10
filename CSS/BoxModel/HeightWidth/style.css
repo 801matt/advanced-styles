@@ -1,0 +1,23 @@
+/*
+MARGIN COLLAPSING
+- The top and bottom margins of blocks are sometimes combined (collapsed) into a single margin whose size is the largest of the individual margins (or just one of them, if they are equal), a behavior known as margin collapsing. Note that the margins of floating and absolutely positioned elements never collapse.
+*/
+
+body {
+  margin: 0;
+}
+
+#btn-wrapper {
+  background: #f7f7f7;
+  width: 50%;
+  height: 150px;
+}
+
+button {
+  display: block;
+  margin: 20px;
+  border: solid 3px blue;
+  padding: 20px;
+  width: 100%; /* % width is the percentage of the containing width */
+  height: 100%; /* % height refers to the available height given by the parent container */
+}
